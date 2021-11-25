@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    margin-top: 10cm;
+    margin-left: 11px;
+    width: 30%;
+    height: auto;
+}
+#besar{
+    padding: 11px;
+    background-color: #FDAFB1;
+}
+#besar>header{
+    margin-bottom: 11px;
+}
+#besar>footer{
+    margin-top: 11px;
+}
+#main{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+#main>article{
+    background: #FA7A7B;
+    flex: 1;
+    order: 2;
+}
+#main>aside{
+    flex: 0 0 20vw;
+    background: #62B7B6;
+    order: 1;
+    margin-right: 11px;
+}
+header,footer{
+    background: #98D1C7;
+    height: 10vh;
+}
+header,footer,article,aside{
+    padding: 1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
