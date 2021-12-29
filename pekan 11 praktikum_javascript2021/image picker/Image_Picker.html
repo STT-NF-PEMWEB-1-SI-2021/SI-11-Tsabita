@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function gambar(){
+            let pict = document.getElementById("gambar").value;
+            alert("Ini gambar "+ pict);
+            if (pict == "gorilla.jpg"){
+                document.getElementById("muncul_gambar").src="gorilla.jpg";
+            }
+            else if (pict == "bison.jpeg"){
+                document.getElementById("muncul_gambar").src="bison.jpeg";
+            }
+            else if (pict == "deer.jpeg"){
+                document.getElementById("muncul_gambar").src="deer.jpeg";
+            }
+            else if (pict == "komodo.jpeg"){
+                document.getElementById("muncul_gambar").src="komodo.jpeg";
+            }
+            else if (pict == "tiger.jpeg"){
+                document.getElementById("muncul_gambar").src="tiger.jpeg";
+            }
+            else if (pict == "wolf.jpeg"){
+                document.getElementById("muncul_gambar").src="wolf.jpeg";
+            }
+            else if (pict == "bear.jpg"){
+                document.getElementById("muncul_gambar").src="bear.jpg";
+            }
+        }
+    </script>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 20px;
+            width: 50%;
+            background-color: beige;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <select id="gambar" name="gambar" onchange="gambar()">
+            <option value="gorilla.jpg">Gorilla</option>
+            <option value="bison.jpeg">Bison</option>
+            <option value="deer.jpeg">Rusa</option>
+            <option value="komodo.jpeg">Komodo</option>
+            <option value="tiger.jpeg">Harimau</option>
+            <option value="wolf.jpeg">Serigala</option>
+            <option value="bear.jpg">Beruang</option>
+        </select>
+        <br/>
+        <img id="muncul_gambar" src="gorilla.jpg" alt="munculgambar" style="width: 50%;">
+    </div>
+</body>
+</html>
