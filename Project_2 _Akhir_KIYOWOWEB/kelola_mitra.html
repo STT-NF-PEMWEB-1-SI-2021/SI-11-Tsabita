@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Page 8 - Kelola Lowongan Kerja</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins2/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist2/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="dist2/img/Siloker (5).png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">SILOKER - Backend</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist2/img/user4-128x128.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="FormLogin.html" class="d-block">Admin</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Loker</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="daftar_mitra.html" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Mitra
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="home.html" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Berita
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="FormLogin.html" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Logout
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+ <!-- Content Wrapper. Contains page content -->
+ <div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <div class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-12">
+          <h1 class="m-0 text-center">Sistem Informasi Lowongan Kerja NF</h1>
+        </div><!-- /.col -->
+        <div class="col-sm-12">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </li>
+            <a href="FormLogin.html" style="padding-left: 1em;"><p><u>Login</u></p></a>
+          </ol>
+        </div>
+        <div class="container-fluid border">
+          <div class="row">
+            <div class="col-md-6" style="padding-left: 5em;">
+              <h2>Kelola Mitra</h2>
+            </div>
+            <div class="col-md-6" >
+              <nav>
+                <ol class="breadcrumb" style="padding-left: 15em;">
+                  <li class="breadcrumb-item">
+                    <a href="home.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="#">Library</a>
+                  </li>
+                  <li class="breadcrumb-item active">
+                    Kelola Lowongan Kerja
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <br>
+            <br>
+            <div>
+              <button type="button" class="btn btn-primary">Kelola</button>
+            </div>
+          </div>
+          <table class="table table-striped" border="2px">
+            <thead>
+              <tr>
+                <th>
+                  NO
+                </th>
+                <th>
+                  Nama Perusahaan
+                </th>
+                <th>
+                  Bidang Usaha
+                </th>
+                <th>
+                  Kontak persero
+                </th>
+                <th>
+                  Email
+                </th>
+                <th>
+                  Telpon
+                </th>
+                <th>
+                  Alamat Web
+                </th>
+                <th>
+                  Action
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  1
+                </td>
+                <td>
+                  PT ABC
+                </td>
+                <td>
+                  Ahmad Fikri
+                </td>
+                <td>
+                  Property
+                </td>
+                <td>
+                  <a href="#">ABCKontak@gmail.com</a>
+                </td>
+                <td>
+                  021-08834
+                </td>
+                <td>
+                  <a href="#">https://ABC.com</a>
+                </td>
+                <td>
+                  Edit | Delete
+                  </td>
+              </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- /.content-wrapper -->
+<footer class="main-footer">
+  <strong>Develop By KIYOWOWEB</strong>
+  @ 2021
+</footer>
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+  <!-- Control sidebar content goes here -->
+</aside>
+<!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins2/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins2/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist2/js/adminlte.min.js"></script>
+</body>
+</html>
